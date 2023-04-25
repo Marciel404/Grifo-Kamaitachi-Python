@@ -20,7 +20,12 @@ Intents = discord.Intents(
     voice_states=True,
 )
 
-client = bridge.Bot(command_prefix=commands.when_mentioned_or("%$", "&&", "&"), intents=Intents, help_command=None)
+client = bridge.Bot(
+    command_prefix=commands.when_mentioned_or("%$", "&&", "&"),
+    intents=Intents,
+    help_command=None,
+    case_insensitive=True
+)
 
 pastaname = 'commands'
 for filename in os.listdir(f'./{pastaname}'):

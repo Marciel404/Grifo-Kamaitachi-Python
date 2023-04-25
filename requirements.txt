@@ -1,0 +1,7 @@
+py-cord
+pymongo
+idna
+dnspython
+NewFunctionsPYC
+tinydb
+python-dotenv

@@ -1,7 +1,7 @@
 import discord
+
 from discord.ext import commands
 from tinydb import table
-
 from db.eligos import karaokeAct, db_temp_users
 from utils.loader import configData
 from datetime import datetime, timedelta
